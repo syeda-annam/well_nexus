@@ -53,7 +53,7 @@ const AIRecommendations = ({ userData, profile }) => {
       <div className="flex items-center justify-between">
         <h3 className="text-2xl font-bold flex items-center">
           <Brain className="h-6 w-6 mr-2 text-purple-600" />
-          AI Recommendations
+          Recommendations
         </h3>
         <Button onClick={generateRecommendations} disabled={recommendations.loading}>
           <RefreshCw className={`h-4 w-4 mr-2 ${recommendations.loading ? 'animate-spin' : ''}`} />

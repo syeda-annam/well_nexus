@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { useAuth } from '@/contexts/AuthContext';
 import { useProfile } from '@/hooks/useProfile';
@@ -67,10 +66,10 @@ const Dashboard = () => {
         {/* Welcome Section */}
         <div className="mb-8">
           <h2 className="text-3xl font-bold text-gray-900 mb-2">
-            AI-Enhanced Fitness Dashboard
+            Dashboard
           </h2>
           <p className="text-gray-600">
-            Track your progress, get AI recommendations, and achieve your goals
+            
           </p>
         </div>
 
@@ -146,7 +145,7 @@ const Dashboard = () => {
             </TabsTrigger>
             <TabsTrigger value="ai-recommendations" className="flex items-center">
               <Brain className="h-4 w-4 mr-2" />
-              AI Coach
+              Tips
             </TabsTrigger>
             <TabsTrigger value="achievements" className="flex items-center">
               <Trophy className="h-4 w-4 mr-2" />
@@ -187,7 +186,7 @@ const Dashboard = () => {
                       Smart Nutrition Entry
                     </CardTitle>
                     <CardDescription>
-                      AI-powered food logging with automatic nutrition estimation
+                      Food logging with automatic nutrition estimation
                     </CardDescription>
                   </CardHeader>
                 </Link>

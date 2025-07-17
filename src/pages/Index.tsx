@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { useAuth } from '@/contexts/AuthContext';
 import { Button } from '@/components/ui/button';
@@ -149,7 +148,7 @@ const Index = () => {
             Ready to Start Your Fitness Journey?
           </h2>
           <p className="text-xl text-gray-600 mb-8">
-            Join thousands of users who have transformed their lives with Well Nexus
+            Be among the first to transform your life with Well Nexus
           </p>
           <Link to="/auth">
             <Button size="lg">

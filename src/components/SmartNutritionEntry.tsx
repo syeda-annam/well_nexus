@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Input } from '@/components/ui/input';
@@ -118,11 +117,9 @@ const SmartNutritionEntry = () => {
     <Card>
       <CardHeader>
         <CardTitle className="flex items-center">
-          <Apple className="h-5 w-5 mr-2 text-green-600" />
-          Smart Nutrition Entry
+          
         </CardTitle>
         <CardDescription>
-          AI-powered nutrition estimation - just enter the food and quantity!
         </CardDescription>
       </CardHeader>
       <CardContent>
@@ -176,7 +173,7 @@ const SmartNutritionEntry = () => {
               ) : (
                 <Sparkles className="h-4 w-4 mr-2" />
               )}
-              {estimating ? 'Estimating...' : 'AI Estimate Nutrition'}
+              {estimating ? 'Estimating...' : 'Estimate Nutrition'}
             </Button>
           </div>
 
